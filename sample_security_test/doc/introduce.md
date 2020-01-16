@@ -1,0 +1,38 @@
+# .NET 中的安全性
+
+公共语言运行时和.NET 提供类许多有用的类和服务，使开发人员能够轻松的编写安全代码，并让系统管理员能够自定义授权代码的权限，以便于可以访问受保护的资源，使用加密和基于角色的安全性。
+
+## 主体
+
+主体表示用户的标识和角色，并代表用户进行操作。.NET Framework 中基于安全性支持三种主体
+
+* 泛型主体表示独立于Windows用户和角色存在的用户和角色
+* Windows主体表示Windows用户及其角色（或Windows组）
+* 应用程序可以用任何所需的方式定义主体。他们是可以扩展该主体的标识和角色的基本g概念。
+  
+## 身份验证
+
+身份验证是通过检查用户凭据和针对某些颁发机构对这些凭据进行验证来发现和验证主体的标识的过程。
+
+## 加密模型
+
+.NET Framework安全系统实现派生类继承的可扩展模式。层次结构如下  
+
+* 算法类型类。如 SymmetricAlgorithm，AsymmetricAlgorithm或者HashAlgorithm。此级别是抽象的。
+* 从算法抽象类型类继承的算法类；例如，Aes，RC2或ECDiffeHellman。此级别是抽象的。
+* 从算法类继承的算法类实现；例如，AesManaged，AC2CryptoServiceProvider或ECDiffieHellmanCng.此级别已经完全实现。
+
+## CtyptoStream 类
+
+该类派生自Stream类。基于流的加密对象支持用于处理对象的数据传输部分的单个标准接口（CryptoStream)。由于所有对象都基于标准接口。因此可以将多个对象链接起来。组个的加密和哈希算法任然可以视为单个流对象。
+
+## 建议算法列表
+
+| 类型 |   算法     |
+| :----: | :------:|
+| 数据隐私 | Aes |
+| 数据完整性 | HMACSHA256, HMACSHA512 |
+| 数字签名 | ECDsa，RSA |
+| 密钥交换 | ECDDiffieHellman,RSA |
+| 随机数生成 | RNGCryptoServiceProvider |
+| 密钥生成密钥 | Rfc2898DeriveBytes |
