@@ -7,8 +7,8 @@ namespace sample_xmlSerialization
     {
         static void Main(string[] args)
         {
-            test t = new test();
-            t.run();
+            Test t = new Test();
+            t.Run();
             Console.WriteLine("Hello World!");
         }
     }

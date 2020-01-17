@@ -10,7 +10,7 @@ using System.Security.Cryptography;
 
 namespace sample_security_test.lib
 {
-    public class sample_aes_algorithm_test
+    public class Sample_Aes_Algorithm_Test
     {
         /// <summary>
         /// 用于数据隐私加密

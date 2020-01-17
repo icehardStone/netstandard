@@ -5,16 +5,16 @@ using System.Xml.Serialization;
 
 namespace sample_xmlSerialization
 {
-    public class  test
+    public class  Test
     {
         public XmlSerializer Serializer{set;get;}
         public Person p {set;get;}
-        public test()
+        public Test()
         {
             this.Serializer = new XmlSerializer(typeof(Person));
             p = new Person();
         }
-        public void run()
+        public void Run()
         {
             p.Name = "admas";
             p.Age = 12;

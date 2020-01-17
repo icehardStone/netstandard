@@ -11,7 +11,7 @@ using System.IO;
 
 namespace sample_security_test.lib
 {
-    public class sample_hmacsha256_test
+    public class Sample_Hmacsha256_Test
     {
         public static byte[] Encryptor(string content,byte[] key)
         {

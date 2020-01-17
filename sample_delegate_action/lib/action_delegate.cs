@@ -10,7 +10,7 @@ using System;
 // Action 类
 namespace delegate_action
 {
-    public class action_delegate
+    public class Action_Delegate
     {
         public Action Actions_Event;
 

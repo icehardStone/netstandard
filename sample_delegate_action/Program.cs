@@ -1,5 +1,5 @@
 ﻿//--------------------------------------------------------------------------------------------------------------------------
-// Copyrgith  #endregioniceharstone
+// Copyrgith  iceharstone
 // Ttitle:    Action 类，用于需要将委托参数执行操作的情况
 // DateTime:  2020/01/03
 // Author:    胡光华
@@ -12,7 +12,7 @@ namespace delegate_action
     {
         static void Main(string[] args)
         {
-           action_delegate action = new action_delegate();
+           Action_Delegate action = new Action_Delegate();
            
             // 订阅事件
             action.Actions_Event += Dog_Dance;
