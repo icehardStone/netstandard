@@ -4,4 +4,9 @@
 
 ## 示例
 
-下面的例子展示了如何使用匿名管道将字符串从父进程发送到子进程。此实例在父进程中创建AnonymousePipeServerStream对象，它的PipeDirection的值为Out,然后，父进程使用客户端句柄创建AnonymousePipeClientStream对象，以创建子进程，子进程的PipeDirection值为In。
+下面的例子展示了如何使用匿名管道将字符串从父进程发送到子进程。此实例在父进程中创建**AnonymousePipeServerStream**对象，它的**PipeDirection**的值为**Out**,然后，父进程使用客户端句柄创建**AnonymousePipeClientStream**对象，以创建子进程，子进程的**PipeDirection**值为**In**。
+
+
+## 补充
+
+**管道**为进程间通信提供了平台，管道分为两种 **匿名管道**和 **命名管道**。命名管道在管道服务和一个或多个管道客户端之间提供进程间通信。命名管道可以是单向的，也可以是双向的。他们支持基于消息的通信。并允许多个客户端使用相同的管道名称同时连接服务器进程。命名管道还支持模拟，这样连接进程就可以在远程服务器上使用自己的权限。
