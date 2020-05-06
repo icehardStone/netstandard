@@ -1,2 +1,8 @@
 bin
 obj
+/sample_webservice/netbeans/application/WebService/nbproject/private/
+/sample_webservice/netbeans/application/WebService/build/
+/sample_webservice/netbeans/application/WebService/dist/
+/sample_webservice/netbeans/application/Sample.WebService/nbproject/private/
+/sample_webservice/netbeans/application/Sample.WebService/dist/
+/sample_webservice/netbeans/application/Sample.WebService/build/
