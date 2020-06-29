@@ -44,7 +44,7 @@ namespace sample_task_runs
                 while(true)
                 {
                     Console.WriteLine("threding 1 is doing!");
-                    Thread.Sleep()
+                    // Thread.Sleep()
                 }
             },taken);
             while(temp <= 7)

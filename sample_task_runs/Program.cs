@@ -6,8 +6,10 @@ namespace sample_task_runs
     {
         static void Main(string[] args)
         {
-            TaskRunTest taskRunTest = new TaskRunTest();
-            taskRunTest.CancellationTokenTest();
+            // TaskRunTest taskRunTest = new TaskRunTest();
+            // taskRunTest.CancellationTokenTest();
+            ParallelPragram pragram = new ParallelPragram();
+            pragram.Test();
         }
     }
 }
