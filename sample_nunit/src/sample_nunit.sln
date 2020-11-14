@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample_xunit", "sample_nunit_console\sample_xunit.csproj", "{F17418AB-72BA-4249-B89F-707CB953BF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample_nunit_test", "sample_nunit_test\sample_nunit_test.csproj", "{4CA3500B-CC11-4578-A110-BAD27AE0790D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|x64.Build.0 = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Debug|x86.Build.0 = Debug|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|x64.ActiveCfg = Release|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|x64.Build.0 = Release|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|x86.ActiveCfg = Release|Any CPU
+		{F17418AB-72BA-4249-B89F-707CB953BF07}.Release|x86.Build.0 = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|x64.Build.0 = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Debug|x86.Build.0 = Debug|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|x64.ActiveCfg = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|x64.Build.0 = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|x86.ActiveCfg = Release|Any CPU
+		{4CA3500B-CC11-4578-A110-BAD27AE0790D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

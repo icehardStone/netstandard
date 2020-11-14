@@ -10,6 +10,7 @@ namespace sample_authorication.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [ControllerActionFilter]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -25,7 +26,7 @@ namespace sample_authorication.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get([FromHeader]string filter)
         {
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
